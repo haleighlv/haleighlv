@@ -1,3 +1,13 @@
-.logo {
-    height: 200px;
+@import url();
+
+:root {
+    --brand: #8246af;
+    --action: #ffa300;
+    --white:#ffffff;
+    --base-light: #cdb5df;
+    --base-dark: #0d0711;
+    --black: #111111;
 }
+
+
+
