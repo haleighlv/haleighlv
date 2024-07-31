@@ -74,9 +74,9 @@ select {
 /* component classes */
 
 .logo {
-  width: 200px;
-  height: 200px;
-  padding: 15px;
+  height: 70px;
+  float: left;
+  display: inline-block
 }
 
 .btn-primary {
@@ -100,6 +100,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  height: 60px;
+  float: right;
+  margin: 5px 10px;
 }
 
 header .mobile-header {
@@ -117,11 +120,20 @@ header button {
   padding-bottom: 10px;
 }
 
-.mobile-nav a {
+.header a{
+  text-decoration: none
+  color: var(--white);
+  flex-direction: row;
+  text-align: right;
+  padding: 30px;
   text-decoration: none;
-  color: var(--black);
-  display: block;
-  padding: 4px 16px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header-right {
+  float: right;
 }
 
 .desktop-nav a {
