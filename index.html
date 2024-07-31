@@ -22,12 +22,11 @@
 
 <body>
   <header class="header">
-    <div class="header-group">
-      <img src="img/HaleighVinicombeLogo.png" alt="HaleighVinicombeLogo" class="logo" />
-      <button type="button" class="hamburger-button">
-        <img class="hamburger-icon" src="/img/hamburger.svg" class="hamburger-icon"
-          alt="Three horizontal lines positioned one above the other" />
-      </button>
+    <img src="img/HaleighVinicombeLogo.png" alt="HaleighVinicombeLogo" class="logo" />
+    <button type="button" class="hamburger-button">
+      <img class="hamburger-icon" src="/img/hamburger.svg" class="hamburger-icon"
+        alt="Three horizontal lines positioned one above the other" />
+    </button>
     </div>
 
     <nav class="mobile-nav" aria-label="primary">
@@ -49,86 +48,87 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact Me</a></li>
     </nav>
+  </header>
 
 
 
-    <!--hero section-->
-    <section class="hero">
-      <article>
-        <h1>Haleigh Vinicombe - Web Developer</h1>
-        <img src="./img/HaleighVinicombePhoto.jpg" alt="Photo of Haleigh Vinicombe" id="hlvphoto" />
-        <p>Hi, I’m Haleigh Vinicombe and I am an aspiring web developer. I was born in NZ and became an Australian
-          citizen this year. I started my career as a Pharmacy Technician working across community and hospital pharmac
-          and clinical trials. Then I started working in the superannuation industry and landed in Marketing which is
-          what led me to web development.</p>
-        <p>After spending time on a website relaunch, I was hooked and started teaching myself. I have completed an
-          Undergrad Certificate in Programming and now I am hoping to take my career to the next level with She Codes
-          Plus.</p>
-      </article>
-    </section>
+  <!--hero section-->
+  <section class="hero">
+    <article>
+      <h1>Haleigh Vinicombe - Web Developer</h1>
+      <img src="./img/HaleighVinicombePhoto.jpg" alt="Photo of Haleigh Vinicombe" id="hlvphoto" />
+      <p>Hi, I’m Haleigh Vinicombe and I am an aspiring web developer. I was born in NZ and became an Australian
+        citizen this year. I started my career as a Pharmacy Technician working across community and hospital pharmac
+        and clinical trials. Then I started working in the superannuation industry and landed in Marketing which is
+        what led me to web development.</p>
+      <p>After spending time on a website relaunch, I was hooked and started teaching myself. I have completed an
+        Undergrad Certificate in Programming and now I am hoping to take my career to the next level with She Codes
+        Plus.</p>
+    </article>
+  </section>
 
-    <!--portfolio button-->
-    <section class="articles-container">
-      <article>
-        <h2>Portfolio</h2>
-        <div class="slideshow container">
-          <div class="mySlides fade"></div>
-          <div class="numbertext">1 /3 </div>
-        </div>
-        <a href="#" class="btn-primary">View my Portfolio</a>
-      </article>
-    </section class>
+  <!--portfolio button-->
+  <section class="articles-container">
+    <article>
+      <h2>Portfolio</h2>
+      <div class="slideshow container">
+        <div class="mySlides fade"></div>
+        <div class="numbertext">1 /3 </div>
+      </div>
+      <a href="#" class="btn-primary">View my Portfolio</a>
+    </article>
+  </section class>
 
-    <!-- carousel -->
+  <!-- carousel -->
 
-    <!--contact me section-->
-    <section class="contact-form">
-      <article>
-        <h2>Contact Me</h2>
-        <form>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" />
-          <label for="mobile">Mobile</label>
-          <input type="text" id="mobile">
-          <label for="email">Email</label>
-          <input type="text" id="email">
-          <label for="message">Your message</label>
-          <textarea name="message-text" id="message" rows="10"></textarea>
-          <input type="submit" value="Submit" />
-        </form>
-      </article>
-    </section class>
+  <!--contact me section-->
+  <section class="contact-form">
+    <article>
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+        <label for="mobile">Mobile</label>
+        <input type="text" id="mobile">
+        <label for="email">Email</label>
+        <input type="text" id="email">
+        <label for="message">Your message</label>
+        <textarea name="message-text" id="message" rows="10"></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </article>
+  </section class>
 
-    <script>
-      const hamburger = document.querySelector('.hamburger');
-      const navLinks = document.querySelector('.nav-links');
-      hamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('open');
-      });
-    </script>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+  </script>
 
-    <!-- footer -->
-    <footer>
-      <!-- insta -->
-      <a href="https://www.instagram.com/findinghaleigh/?igsh=MTV0eng4dXo2eWFyNg%3D%3D&utm_source=qr">
-        <img class="socials-icon" src="./img/instagram.svg"
-          alt="The instagram logo: a rounded square camera with a purple-orange gradient filling the lines" />
-      </a>
-      <!-- linked in-->
-      <a
-        href="https://www.linkedin.com/in/haleigh-vinicombe-aa7b19b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-        <img class="socials-icon" src="./img/linkedin.png" alt="The Linked in logo: the word in on a blue background" />
-      </a>
-      <!-- slack -->
-      <a href="https://shecodesaus.slack.com/team/U06M3RW81L0">
-        <img class="socials-icon" src="./img/slack.svg" alt="The Slack logo: a colourful deconstructed hashtag" />
-      </a>
-      <!-- git hub -->
-      <a href="https://github.com/haleighlv">
-        <img class="socials-icon" src="./img/github.svg"
-          alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
-      </a>
-    </footer>
+  <!-- footer -->
+  <footer>
+    <!-- insta -->
+    <a href="https://www.instagram.com/findinghaleigh/?igsh=MTV0eng4dXo2eWFyNg%3D%3D&utm_source=qr">
+      <img class="socials-icon" src="./img/instagram.svg"
+        alt="The instagram logo: a rounded square camera with a purple-orange gradient filling the lines" />
+    </a>
+    <!-- linked in-->
+    <a
+      href="https://www.linkedin.com/in/haleigh-vinicombe-aa7b19b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+      <img class="socials-icon" src="./img/linkedin.png" alt="The Linked in logo: the word in on a blue background" />
+    </a>
+    <!-- slack -->
+    <a href="https://shecodesaus.slack.com/team/U06M3RW81L0">
+      <img class="socials-icon" src="./img/slack.svg" alt="The Slack logo: a colourful deconstructed hashtag" />
+    </a>
+    <!-- git hub -->
+    <a href="https://github.com/haleighlv">
+      <img class="socials-icon" src="./img/github.svg"
+        alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
+    </a>
+  </footer>
 </body>
 
 </html>
