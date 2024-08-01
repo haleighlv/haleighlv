@@ -22,7 +22,7 @@
 
 <body>
   <header>
-    <div class="mobile-header">
+    <div class="custom-header">
       <img src="./img/HaleighVinicombeLogo.png" class="logo" alt="Haleigh Vinicombe Logo" />
       <button type="button" class="hamburger-button">
         <img class="hamburger-icon" src="./img/hamburger.svg"
@@ -37,11 +37,10 @@
         </ul>
       </nav>
 
-      <nav class="mobile-nav display-none" aria-label="primary">
+      <nav class="mobile-nav" aria-label="primary">
         <ul>
           <li><a href=""></a>Home</li>
           <li><a href=""></a>Portfolio</li>
-          <li><a href=""></a></li>
         </ul>
     </div>
     </nav>
@@ -53,11 +52,14 @@
       <h1>Haleigh Vinicombe - Web Developer</h1>
       <img src="./img/HaleighVinicombePhoto.jpg" alt="Photo of Haleigh Vinicombe" id="hlvphoto" />
       <p>Hi, I’m Haleigh Vinicombe and I am an aspiring web developer. I was born in NZ and became an Australian
-        citizen this year. I started my career as a Pharmacy Technician working across community and hospital pharmac
-        and clinical trials. Then I started working in the superannuation industry and landed in Marketing which is
+        citizen this year. I started my career as a Pharmacy Technician working across community and hospital
+        pharmac
+        and clinical trials. Then I started working in the superannuation industry and landed in Marketing which
+        is
         what led me to web development.</p>
       <p>After spending time on a website relaunch, I was hooked and started teaching myself. I have completed an
-        Undergrad Certificate in Programming and now I am hoping to take my career to the next level with She Codes
+        Undergrad Certificate in Programming and now I am hoping to take my career to the next level with She
+        Codes
         Plus.</p>
     </article>
   </section>
@@ -68,11 +70,10 @@
       <h2>Portfolio</h2>
       <p>Interested in my work? View my Portfolio</p>
       <img src="./img/Portfolio.jpg" alt="abstract multi-coloured image" id="pfimage" />
-        <a href="#" class="btn-primary">View my Portfolio</a>
+      <a href="#" class="btn-primary">View my Portfolio</a>
     </article>
   </section>
 
-  <!-- carousel -->
 
   <!--contact me section-->
   <section class="contact-form">
@@ -93,13 +94,6 @@
     </article>
   </section class>
 
-  <script>
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('open');
-    });
-  </script>
 
   <!-- footer -->
   <footer>
@@ -123,6 +117,9 @@
         alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
     </a>
   </footer>
+
+
+
 </body>
 
 </html>
