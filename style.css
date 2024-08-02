@@ -63,6 +63,12 @@ select {
   font: inherit;
 }
 
+/* Utility classes */
+.display-none {
+  display: none;
+}
+
+/* Component Classes */
 .btn-primary {
   padding: 12px 16px;
   display: inline-block;
@@ -79,10 +85,39 @@ select {
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
   transform: translateY(-4px);
 }
+
+header .mobile-nav {
+  padding: 16px;
+}
+
+header button {
+  all: unset;
+}
+
+.mobile-nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.desktop-nav a {
+  display: none;
+}
+
+/* hamburger icon */
+.hamburger-icon {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  display: none;
+}
+
 /* utility classes */
 
-/* header */
-.custom-header {
+header .custom-header {
   background-color: var(--base-dark);
   text-colour: White;
 }
@@ -99,16 +134,12 @@ custom-header .mobile-nav {
   display: none;
 }
 
-header button {
-  all: unset;
-}
 
 @media (min-width: 768px) {
   .custom-header .mobile-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    display: none;
   }
 
   .custom-header nav {
@@ -117,10 +148,6 @@ header button {
     justify-content: space-between;
   }
 
-  .mobile-nav .hamburger-icon {
-    display: none;
-  }
-}
 
 /* logo */
 .logo {
@@ -143,12 +170,6 @@ header button {
   cursor: pointer;
 }
 
-.mobile-nav a {
-  text-decoration: none;
-  color: var(--black);
-  display: block;
-  padding: 4px 16px;
-}
 
 .custom-header .mobile-nav {
   padding: 16px;
@@ -158,11 +179,10 @@ header button {
   display: none;
 }
 
-/* media query */
-
 .desktop-nav {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 20px;
 }
 
@@ -172,15 +192,6 @@ header button {
   justify-content: space-between;
   color: white;
   align-items: right;
-}
-
-/* .hamburger-icon  */
-.hamburger-icon {
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  display: none;
 }
 
 /* .hero */
@@ -284,18 +295,4 @@ footer {
   width: 100px;
   height: 100px;
   padding: 15px;
-}
-
-@media (min-width: 768px) {
-  .custom-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .custom-header nav ul {
-    display: flex;
-    gap: 24px;
-    margin-right: 16px;
-  }
 }
