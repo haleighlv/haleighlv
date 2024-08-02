@@ -256,6 +256,11 @@ article p {
   justify-content: center;
 }
 
+.pfheading {
+  text-align: center;
+  padding: 20px;
+}
+
 /* .contact-form */
 .contact-form {
   padding: 48px 16px;
