@@ -142,13 +142,7 @@ header .custom-header {
   flex-direction: column;
   cursor: pointer;
   color: var(--white);
-}
-
-.hamburger-icon.open {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  color: var(--white);
+  display: none;
 }
 
 /* desktpp nav */
@@ -191,6 +185,8 @@ header .custom-header {
     align-items: right;
     text-decoration: none;
     padding: 20px;
+    float: left;
+    width: 100px;
   }
 
   .hamburger-icon {
@@ -207,29 +203,6 @@ header .custom-header {
   }
 
   .desktop-nav li a {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: white;
-    align-items: right;
-    text-decoration: none;
-    padding: 20px;
-  }
-
-  .hamburger-icon {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .mobile-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-  }
-
-  .mobile-nav li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -276,6 +249,7 @@ header .custom-header {
 }
 
 /* portfolio */
+
 article {
   padding: 32px 16px;
   background-color: var(--base-light);
@@ -299,8 +273,8 @@ article p {
 #pfimage {
   width: 80%;
   height: 80%;
-  display: inline;
-  flex-direction: column;
+  display: flex-inline;
+  flex-direction: row;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -357,6 +331,10 @@ article p {
   color: var(--base-dark);
   padding: 25px;
   text-align: center;
+}
+
+button.hamburger-button {
+  display: none;
 }
 
 /* footer */

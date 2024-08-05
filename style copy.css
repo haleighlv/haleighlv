@@ -155,6 +155,8 @@ custom-header .mobile-nav {
   display: none;
 }
 
+.mobile-nav.open {}
+
 .desktop-nav {
   display: flex;
   flex-direction: row;
