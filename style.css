@@ -119,7 +119,7 @@ header button {
   margin-right: 30px;
 }
 
-/* hero */
+/* hero section */
 
 .hero {
   background-color: var(--brand);
@@ -155,6 +155,9 @@ article {
   transition: all 0.3s ease;
   text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 article h2 {
@@ -180,13 +183,17 @@ article p {
 
 #pfbutton {
   width: 200px;
-  position: block;
+  display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
 }
 
 /*  contact form */
+
+.hello-form {
+  width: 80%;
+}
 
 .contact-form {
   padding: 48px 16px;
@@ -260,7 +267,8 @@ footer {
     padding: 0;
   }
 
-  .mobile-nav {
+  .mobile-nav.open {
+    display: flex;
     align-self: flex-start;
     flex-direction: column;
     height: 0;
@@ -288,7 +296,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   header {
     display: flex;
     justify-content: space-between;

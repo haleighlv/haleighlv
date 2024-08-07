@@ -22,8 +22,8 @@
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
-- [ ]x Different styles for active, hover and focus states.
-- [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
+- [ x]xDifferent styles for active, hover and focus states.
+- [x ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
 ​
 ### Screenshots
 > Please include the following:
@@ -39,10 +39,9 @@
 (./READMEimg/HomepageMobile.png)
 
 #### Home page - tablet screen
-(./READMEimg/HomeTablet.png)
+(./READMEimg/hamburger.png)
 
-
-#### Portfolio page - full screen
+### Portfolio page - full screen
 (./READMEimg/PortfolioFull.png)
 
 #### Portfolio page - mobile screen
@@ -54,3 +53,5 @@
 #### Button hover
 (./READMEimg/ButtonHover.png)
 
+#### Hamburger open
+(./READMEimg/hamburger.png)
